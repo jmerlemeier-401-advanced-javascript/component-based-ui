@@ -17,7 +17,64 @@ Start focusing more on DSA
     - Enumerated list of all the steps your solution will use?
     - Concise
     - EFFICIENCY (Big(O) time and space). Space and Time complexity.
-    - You can say, "This is what I know, this is where I am a little stuck. Is there something you would recommend here."
-  - Pseudo Code: Build out your algorithm with variables, methods, ect. Very Explicit.
+    - STEP THROUGH your algorithm with your sample input/output from above.
+    - You can say, "This is what I know, this is where I am a little stuck. Is there somet Code-like statements.
   - Code: produce syntactically correct code.
   - Testing and edge cases for the end.
+  - Pivoting: you hit something that does not work - talk about it. Do not freeze up. Say, "Can you see a place where I went wrong?" Ask many questions and a suggestion.
+
+GO!
+
+#### Questions: 
+
+* Will the list I am given have at least one node?
+
+#### Visualization
+* 3 pointers
+![visual](./assets/reverse-ll.jpg)
+
+```js
+'use strict';
+
+class LinkedList {
+  constructor(){
+    this.head = null;
+  }
+}
+
+class Node(value){
+  constructor(){
+    this.value= value;
+    this.next = null;
+  }
+}
+
+
+//Inputs: LinkedList
+//Outputs: New linked list in reverse
+
+// Algorithm:
+//1. Declare some variables for pointers
+//2. Traverse our list
+//3. Reassigning pointers for each iterration of our while loop
+//4. Return  new linkedlist
+
+// Pseudo Code:
+// Declare Variables:
+// * var previous
+// * var next
+// * var current = linkedList.head;
+// Traverse list:
+// * while (current !== null) --> reassign
+     //* next = current.next
+     //*current.next = previous
+
+// Move pointers one step in the direction we want
+     //* previous = current
+     //* current = next
+
+// Code
+
+
+
+```

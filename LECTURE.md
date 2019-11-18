@@ -1,5 +1,21 @@
 # Class 26
 
+## Component Based UI
+
+- Combining Concerns (not separation of concerns).
+- REACT is our component library/framework. Just javascript, which creates stand alone UI components.
+  - Our UIs need 4 things
+    1. State (what data does our UI need)
+    2. Behavior (how are our users interacting)
+    3. Events (what browser/API specific things are occurring in our UI)
+    4. Template (what layout does our UI use to display content?)
+
+How did we used to do things:
+[OLD WAY](./vanilla)
+
+
+***
+
 ## Overview
 Intro to component based UI
 Start focusing more on DSA

@@ -13,6 +13,11 @@
 How did we used to do things:
 [OLD WAY](./vanilla)
 
+### REACT
+`npm init -y`
+`npm install react react-scripts react-dom node-sass`
+- make public folder and src folder
+- Add script in package-json: `start": "react-scripts start"`
 
 ***
 

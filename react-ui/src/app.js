@@ -1,6 +1,9 @@
 //all component logic
 import React from 'react';
 
+// getting our sass is as simple as:
+import './app.scss'
+
 
 const Header = () => <header>This is my header</header>
 const Footer = () => <footer>&copy; Julie Erlemeier</footer>
